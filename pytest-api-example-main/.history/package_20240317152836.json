@@ -1,0 +1,9 @@
+{
+"devDependencies": {
+"cucumber-html-reporter": "^7.1.1"
+},
+"scripts": {
+    "test": "pytest && npm run generate-cucumber-report",
+    "generate-cucumber-report": "node generate-cucumber-report.js"
+  }
+}

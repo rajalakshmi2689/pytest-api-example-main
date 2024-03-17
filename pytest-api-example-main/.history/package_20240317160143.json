@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "pytest && npm run generate-cucumber-report",
+    "generate-cucumber-report": "node generate-cucumber-report.js"
+  },
+  "dependencies": {
+    "chromedriver": "~79.0.0",
+    "cucumber": "~5.1.0",
+    "cucumber-html-reporter": "~5.1.0",
+    "cucumber-junit-formatter": "~0.2.2",
+    "cucumber-pretty": "~6.0.0"
+  }
+}

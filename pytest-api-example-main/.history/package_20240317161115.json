@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "test": "pytest && npm run generate-cucumber-report",
+    "generate-cucumber-report": "node generate-cucumber-report.js"
+  },
+  "dependencies": {}
+}

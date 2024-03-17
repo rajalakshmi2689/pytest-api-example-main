@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cucumber-html-reporter": "^7.1.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.27.0"
+  }
+}
